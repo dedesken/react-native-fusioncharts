@@ -426,6 +426,7 @@ export default class ReactNativeFusionCharts extends Component {
           mixedContentMode="compatibility"
           scrollEnabled={false}
           automaticallyAdjustContentInsets
+          androidHardwareAccelerationDisabled
         />
       </View>
     );
